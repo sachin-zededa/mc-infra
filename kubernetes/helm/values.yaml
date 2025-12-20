@@ -1,22 +1,23 @@
 minecraftServer:
-  eula: "TRUE"
+  eula: true
   version: "LATEST"
   motd: "My Git-managed Minecraft server"
-  type: "VANILLA"
-  maxPlayers: 20
+  type: "PAPER"
+  maxPlayers: 5
   difficulty: "normal"
 
 persistence:
-  enabled: true
-  size: 10Gi
+  dataDir:
+    enabled: true
+    size: 10Gi
 
 resources:
   requests:
-    memory: "4Gi"
-    cpu: "1000m"
+    memory: "2Gi"
+    cpu: "1"
   limits:
-    memory: "8Gi"
-    cpu: "2000m"
+    memory: "3Gi"
+    cpu: "2"
 
 service:
   type: LoadBalancer
