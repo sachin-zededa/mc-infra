@@ -1,6 +1,6 @@
 apiVersion: v2
-name: my-minecraft
-description: Custom Minecraft server chart
+name: edge-ai-mc-server
+description: Custom MC server chart
 type: application
 
 # This is the version of your chart

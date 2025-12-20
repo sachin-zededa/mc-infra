@@ -1,7 +1,7 @@
 minecraftServer:
   eula: true
   version: "LATEST"
-  motd: "My Git-managed Minecraft server"
+  motd: "My Git-managed MC server"
   type: "PAPER"
   maxPlayers: 5
   difficulty: "normal"
@@ -9,7 +9,7 @@ minecraftServer:
 persistence:
   dataDir:
     enabled: true
-    size: 10Gi
+    
 
 resources:
   requests:
