@@ -1,0 +1,10 @@
+apiVersion: v2
+name: my-minecraft
+description: Custom Minecraft server chart
+type: application
+version: 0.1.0
+appVersion: "1.0"
+dependencies:
+  - name: minecraft
+    version: "~2.8.0"
+    repository: "https://itzg.github.io/minecraft-server-charts/"

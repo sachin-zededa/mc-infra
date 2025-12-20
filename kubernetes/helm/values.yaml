@@ -1,0 +1,23 @@
+minecraftServer:
+  eula: "TRUE"
+  version: "LATEST"
+  motd: "My Git-managed Minecraft server"
+  type: "VANILLA"
+  maxPlayers: 20
+  difficulty: "normal"
+
+persistence:
+  enabled: true
+  size: 10Gi
+
+resources:
+  requests:
+    memory: "4Gi"
+    cpu: "1000m"
+  limits:
+    memory: "8Gi"
+    cpu: "2000m"
+
+service:
+  type: LoadBalancer
+  port: 25565
