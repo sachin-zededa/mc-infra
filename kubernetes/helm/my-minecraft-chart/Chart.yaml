@@ -12,4 +12,4 @@ appVersion: "1.21.11"
 dependencies:
   - name: minecraft
     version: 5.0.0
-    repository: https://github.com/itzg/minecraft-server-charts
+    repository: https://itzg.github.io/minecraft-server-charts 
