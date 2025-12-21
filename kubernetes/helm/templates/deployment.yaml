@@ -21,20 +21,3 @@ spec:
         - containerPort: 25565
           name: minecraft
           protocol: TCP
-        env:
-        - name: EULA
-          value: "TRUE"
-        - name: MEMORY
-          value: "2G"
-        - name: DIFFICULTY
-          value: "normal"
-        resources:
-          requests:
-            memory: "1Gi"
-            cpu: "500m"
-          limits:
-            memory: "2Gi"
-            cpu: "1000m"
-        volumeMounts:
-        - name: minecraft-data
-          mountPath: /data
