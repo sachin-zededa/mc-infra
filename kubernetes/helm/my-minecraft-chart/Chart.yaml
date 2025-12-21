@@ -1,5 +1,5 @@
 apiVersion: v2
-name: edge-ai-mc-server
+name: mc-server
 description: Custom MC server chart
 type: application
 
@@ -12,4 +12,4 @@ appVersion: "1.21.11"
 dependencies:
   - name: minecraft
     version: 5.0.0
-    repository: https://itzg.github.io/minecraft-server-charts/
+    repository: https://github.com/itzg/minecraft-server-charts
