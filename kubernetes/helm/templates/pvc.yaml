@@ -3,6 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: minecraft-data
 spec:
+  storageClassName: local-path  # Add this line
   accessModes:
     - ReadWriteOnce
   resources:
