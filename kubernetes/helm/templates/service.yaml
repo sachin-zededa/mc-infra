@@ -9,4 +9,5 @@ spec:
   - protocol: TCP
     port: 25565
     targetPort: 25565
-  type: LoadBalancer  # or NodePort/ClusterIP
+    nodePort: 30007
+  type: NodePort #LoadBalancer  # or NodePort/ClusterIP
